@@ -1,8 +1,0 @@
-package test;
-
-public class SingletonPatternDemo {
-public static void main(String[] args) {
-//	Singleton s =new Singleton ();//will give you an error
-	
-}
-}
