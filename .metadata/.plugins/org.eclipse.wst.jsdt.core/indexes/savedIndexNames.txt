@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\the lord of code\Desktop\javaFun\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+491795076.index
+832220593.index
+4099427194.index
+3574208914.index
+4183693249.index
+3769836365.index
+360580398.index

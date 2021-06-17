@@ -1,0 +1,13 @@
+package com.section1.Human1;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+@RequestMapping("/")
+public class human {
+
+	public String welcomeGet(@RequestParam(value="q")String name) {
+		return name+"<h1> welcome to our web</h1>";
+
+}
+}

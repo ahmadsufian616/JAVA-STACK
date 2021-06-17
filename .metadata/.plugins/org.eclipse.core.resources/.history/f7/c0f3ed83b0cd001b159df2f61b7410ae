@@ -1,0 +1,14 @@
+package com.section1.firstSpringproject;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class welcomecontrolaer {
+	
+	@RequestMapping("/")
+	public String welcome() {
+		return "<h1> welcome to our web</h1>";
+	}
+
+}

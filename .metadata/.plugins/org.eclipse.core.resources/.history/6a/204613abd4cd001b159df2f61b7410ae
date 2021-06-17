@@ -1,0 +1,17 @@
+package com.section1.firstSpringproject;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DojoController {
+	@RequestMapping("/{text}")
+	public String text(@PathVariable("text"),String text) {
+		return text;
+		
+	}
+	
+	
+
+}
