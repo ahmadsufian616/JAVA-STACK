@@ -12,7 +12,7 @@ import com.example.Book.repositories.BookRepository;
 @Service
 public class BookService {
 	// adding the book repository as a dependency
-	private final BookRepository bookRepository;
+	private final BookRepository bookRelpository;
 
 	public BookService(BookRepository bookRepository) {
 		this.bookRepository = bookRepository;
