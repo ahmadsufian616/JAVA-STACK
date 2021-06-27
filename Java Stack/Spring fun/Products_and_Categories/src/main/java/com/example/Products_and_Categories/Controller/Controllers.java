@@ -56,13 +56,14 @@ public String showProCat(@PathVariable("id") Long proId, @ModelAttribute("catego
     return "showProduct.jsp";
     //Category categoryAdded=proCatServ.CategoryNotAdded();
 }
-@RequestMapping(value = "/associate/{id}", method = RequestMethod.POST)
+@RequestMapping(value="/associate/{id}", method = RequestMethod.POST)
 public String associateCategory(@PathVariable("id") Product proId, @ModelAttribute("categoryProductObj") CategoryProduct catPro) {
     S.createAssociation(catPro);
     return "redirect:/products/{id}";
 }
 
 }
+
 
 
 
